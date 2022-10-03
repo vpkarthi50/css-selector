@@ -1,0 +1,81 @@
+/*css start*/
+.head{
+	background-color:yellow;
+	color:brown;
+}
+/*#top{
+	background-color:red;
+	color:blue;
+}*/
+.descent p{
+	background-color:black;
+	color:white;
+}
+.chil>p{
+	background-color:red;
+	color:yellow;
+}
+.sib+p{
+	background-color:blue;
+	color:yellow;
+}
+.sibs+p{
+	background-color:blue;
+	color:yellow;
+}
+.gen~p{
+	background-color:pink;
+	color:green;
+}
+.vis a:link{
+	color:black;
+}
+.vis a:visited{
+	color:green;
+}
+.vis a:hover{
+	color:red;
+}
+.vis a:active{
+	color:blue;
+}
+.psc p:first-child{
+	color:red;
+	background-color:green;
+}
+.pse p::first-line{
+	color:green;
+}
+.hel h2::before{
+	content:url(cycling-alt.svg);
+	width:0.5px;
+	height:0.5px;
+}
+.hell h2::after{
+	content:url(cycling-alt.svg);
+	width:0.5px;
+	height:0.5px;
+}
+::marker{
+	color:red;
+	font-size:23px;
+}
+a[target] {
+  background-color: pink;
+}
+a[target=_blank] {
+  background-color: red;
+}
+[title~=flower] {
+  border: 5px solid yellow;
+}
+[class|="top"] {
+  background: yellow;
+}
+[class^="top"] {
+  background: yellow;
+}
+input[type=text]{
+	background-color:red;
+}
+/*css end*/
