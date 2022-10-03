@@ -63,19 +63,19 @@
 a[target] {
   background-color: pink;
 }
-a[target=_blank] {
+a[target="_blank"] {
   background-color: red;
 }
-[title~=flower] {
+[title~="flower"] {
   border: 5px solid yellow;
 }
 [class|="top"] {
-  background: yellow;
+  background: green;
 }
-[class^="top"] {
-  background: yellow;
+[class^="to"] {
+  background: blue;
 }
-input[type=text]{
+input[type="text"]{
 	background-color:red;
 }
 /*css end*/
